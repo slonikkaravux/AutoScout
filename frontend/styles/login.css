@@ -1,0 +1,60 @@
+body { 
+    font-family: Arial, sans-serif; 
+background-image: url('https://img.freepik.com/free-vector/minimalist-white-background_23-2148811075.jpg'); 
+background-size: cover; 
+    background-position: center; 
+
+} 
+
+ form { 
+    background-color: rgba(255, 255, 255, 0.8); /* Прозрачный белый фон формы */ 
+   padding: 20px; 
+    border-radius: 10px; 
+    text-align: center; /* Выравнивание текста по центру */ 
+    position: relative; /* Абсолютное позиционирование */ 
+    top: 0%; /* Положение относительно верхнего края */ 
+    left: 0%; /* Положение относительно левого края */ 
+    transform: translate(-0%, 30%); /* Центрирование формы по центру экрана */  
+flex-direction: column; /* Элементы будут располагаться вертикально (по колонкам) */ 
+} 
+
+label{ 
+    display: block; 
+    margin-bottom: 10px; 
+text-align: center;  
+} 
+input { 
+    width: 15%; /* Ширина 100% от родительского контейнера */ 
+    box-sizing: border-box; /* Ширина и высота включают границы и отступы в общий размер элемента */ 
+    padding: 10px; /* Внутренний отступ для визуального комфорта */ 
+} 
+
+#changePage { 
+    position: relative; /* Абсолютное позиционирование */ 
+  left: 10px;  
+    text-align: center; /* Выравнивание текста по краю */ 
+    text-decoration: none; 
+} 
+
+.button-container { 
+    width: 100%; 
+    text-align: center; 
+} 
+
+button { 
+    box-sizing: border-box; /* Ширина и высота включают границы и отступы в общий размер элемента */ 
+    padding: 10px; /* Внутренний отступ для визуального комфорта */ 
+    margin-bottom: 10px; /* Отступ снизу между элементами */ 
+} 
+
+#logo-container { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+} 
+
+#logo { 
+    width: 50px; /* Задайте желаемую ширину изображения */ 
+    height: 50px; /* Задайте желаемую высоту изображения */ 
+    border-radius: 50%; /* Для создания круглого изображения */ 
+}

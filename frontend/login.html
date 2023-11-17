@@ -1,1 +1,33 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/login.css">
+    <title>Авторизация</title> 
+</head>
+<body>
+    <div id="logo-container"> 
+        <a href="Registration.html"> 
+            <img id="logo" src="https://w7.pngwing.com/pngs/131/677/png-transparent-arrow-icon-arrow-symbol-text-logo-computer-wallpaper-thumbnail.png" alt="Вернуться на главную"> 
+        </a> 
+    </div> 
+
+<form action="/login" method="post"> 
+
+    <label for="username">Имя пользователя:</label> 
+    <input type="text" id="username" name="username" required> 
+
+    <label for="password">Пароль (от 6 до 12 символов):</label> 
+    <input type="password" id="password" name="password" minlength="6" maxlength="12" required> 
+     
+
+
+<div class="button-container"> 
+    <button type="submit">Войти</button> 
+
+<a id="changePage" href="Registration.html">Регистрация</a> 
+</div> 
+</form> 
+</body>
+</html>
